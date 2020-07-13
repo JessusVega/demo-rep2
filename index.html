@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/01-selectores.js"></script>
+<style>
+ .zebra {
+     border: 5px dashed black;
+ }
+ .grande{
+     font-size: 30px;
+ }
+ .margenSuperior{
+     display:block;
+     margin-top:45px;
+ }
+ .resaltado{
+     border-bottom: 1px solid green;
+ }
+</style>
+
+</head>
+<body>
+    <h1>Aprendiendo JQuery</h1>
+
+    <ul>
+        <li><a href="https://www.google.com" title="google">Ir a google</a></li>
+        <li><a href="https://www.facebook.com" title="facebook">Ir a facebook</a></li>
+
+    </ul>
+    <p id="rojo" class="zebra">Ejercisios de JQuery</p>
+    <p id="amarillo" class="sin">Habia una</p>
+    <p id="verde" class="zebra">Vez</p>
+    <p id="blanco" class="sin">soy un parrafo</p>
+
+    <div id= "caja">
+
+        <p></p>
+
+        <ul>
+            <li>Elemento 1</li>
+            <li class="resaltado">Elemento 2</li>
+        </ul>
+        <span class="resaltado">soy un span</span>
+    </div>
+</body>
+</html>
